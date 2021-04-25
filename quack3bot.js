@@ -1,19 +1,15 @@
-const GCLIENT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com';
-const GCLIENT_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxx';
-const GCLIENT_REFRESH = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
-const TELEGRAM_SECRET = '9999999999:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+const GCLIENT_ID = 'GCLIENT_ID_HERE';
+const GCLIENT_SECRET = 'GCLIENT_SECRET_HERE';
+const GCLIENT_REFRESH = 'GCLIENT_REFRESH_HERE';
+const TELEGRAM_SECRET = 'TELEGRAM_SECRET_HERE';
+const LABELS = LABELS_HERE;
+const ADMINS = ADMINS_HERE;
 
-const LABELS = {
-    'Label_9999999999999999998': ['@canal_edisciplinas_2021', '9999999999'],
-    'Label_9999999999999999999': ['9999999999'],
-};
-const ADMINS = ['9999999999']
 
 const OAUTH_ENDPOINT = 'https://oauth2.googleapis.com/token?grant_type=refresh_token&client_secret=' +
     GCLIENT_SECRET + "&refresh_token=" + GCLIENT_REFRESH + "&client_id=" + GCLIENT_ID;
 const GMAIL_ENDPOINT = 'https://gmail.googleapis.com/gmail/v1/users/me/messages';
 const TELEGRAM_ENDPOINT = 'https://api.telegram.org/bot' + TELEGRAM_SECRET + '/sendMessage';
-
 let gmail_header;
 let oauth_access_token;
 
