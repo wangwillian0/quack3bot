@@ -125,11 +125,10 @@ def get_interface():
         Enter the telegram bot api key: &emsp;
         <input oninput="update(this)" id=telegram_secret placeholder="9999999999:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
         <br><br><br>
-        Enter all the admins that will receive debug messages: &emsp;
+        Enter all chat ids from the admins that will receive debug messages: &emsp;
         <input oninput="update(this)" id=admins placeholder="1234567890, 9999999999">
         <br><br><br>
-        <p> Select the labels and enter the users/channels to
-            read the email and send to you by telegram. </p>
+        <p> Select the labels and the corresponding chat ids of the users/channels that will receive emails with it. </p>
         <br>
         <div id=choices></div>
         <br>

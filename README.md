@@ -20,7 +20,11 @@ Quack3Bot is a bot that will frequently check for unread emails with a specific 
 
 ### 1. Telegram
 
-**Create a bot with [@BotFather](https://t.me/botfather).** Send the message "`/newbot`"  to the Telegram's official bot manager called [BotFather](https://t.me/botfather) and create your new bot . You should receive a authorization token at the end of the process, keep it safe.
+**Create a bot and discover your chat id.**
+
+1.1 - Send the message "`/newbot`"  to the Telegram's official bot manager [@BotFather](https://t.me/botfather) and create your new bot . You should receive a authorization token at the end of the process, keep it safe.
+
+1.2 - The chat id is your identification for the bots. You can discover it by contacting [@userinfobot](https://t.me/userinfobot) or [@jsondumpbot](https://t.me/jsondumpbot).
 
 ### 2. Gmail Labels
 
